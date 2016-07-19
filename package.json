@@ -1,5 +1,5 @@
 {
-  "name": "sonik",
+  "name": "reduxToast",
   "private": true,
   "scripts": {
     "start": "meteor run"
