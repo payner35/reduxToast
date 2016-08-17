@@ -24,6 +24,7 @@
     "react-dom": "^15.2.1",
     "react-mounter": "^1.2.0",
     "react-picture": "0.0.4",
+    "react-tap-event-plugin": "^1.0.0",
     "redux": "^3.5.2",
     "redux-logger": "^2.6.1",
     "redux-thunk": "^2.1.0"
