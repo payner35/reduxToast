@@ -1,0 +1,4 @@
+node_modules/
+settings.json
+startup.sh
+.idea/
