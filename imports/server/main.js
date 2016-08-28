@@ -11,15 +11,15 @@ const executableSchema = makeExecutableSchema({
     typeDefs: Schema,
     resolvers: Resolvers,
     //connectors: Connectors,
+    printErrors: true, // optional
+    allowUndefinedInResolve: true // optional
 });
 
 
 createApolloServer({
     graphiql: true,
     pretty: true,
-    schema: executableSchema,
-    printErrors: true, // optional
-    allowUndefinedInResolve: true // optional
+    schema: executableSchema
 });
 
 
